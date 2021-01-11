@@ -9,8 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private Animator _animationController;
     private sightDirection _playerSightDirection = sightDirection.Right;
     private bool _isJumping = false;
+    private bool _isRunning = false;
     private float _horizontalMove = 0f;
     private float _walkSpeed = .8f;
+    private float _runSpeed = 2.5f;
     [SerializeField] private bool _onGround;
     [SerializeField] private Transform _groundChecker;
     [SerializeField] private float _groundCheckRadius = .08f;
@@ -31,9 +33,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame 
     void Update()
     {
-        _horizontalMove = Input.GetAxisRaw("Horizontal") * _walkSpeed;
+        _horizontalMove = Input.GetAxisRaw("Horizontal") * (_isRunning ? _runSpeed :_walkSpeed);
+
+        if(Input.GetButton("Run")){
+            _isRunning = true;
+        }
+
         if(Input.GetButtonDown("Jump")){
             _isJumping = true;
+        }
+
+        if(_horizontalMove == 0f){
+            _isRunning = false;
         }
     }
 
