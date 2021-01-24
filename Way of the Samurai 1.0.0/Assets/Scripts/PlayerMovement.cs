@@ -20,13 +20,29 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _playerRigidBody;
     private Vector3 _velocity = Vector3.zero;
 
+    public enum playerStates { 
+        IDLE, 
+        WALK, 
+        RUN, 
+        JUMP, 
+        ATTACK
+        }
+    private string[] _animNames = {
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "attack"
+    };
+    private playerStates _currentAnimState;
+
     // Start is called before the first frame update
     void Start()
     {
         //_meleeAttackTimeStamp = Time.time;
         //_attackPoint = GameObject.Find("MeleeAttackPoint").transform;
-        //_animationController = GetComponent<Animator>();
 
+        _animationController = GetComponent<Animator>();
         _playerRigidBody = GetComponent<Rigidbody2D>();
     }
 
@@ -53,6 +69,17 @@ public class PlayerMovement : MonoBehaviour
         move(_horizontalMove * Time.fixedDeltaTime);
         _isJumping = false;
         checkGround();
+
+        if(_onGround){
+            if(_horizontalMove==0)
+                setAnimState(playerStates.IDLE);
+            else if (_isRunning)
+                setAnimState(playerStates.RUN);
+            else
+                setAnimState(playerStates.WALK);
+        }
+        else
+            setAnimState(playerStates.JUMP);
         //Debug.Log(_isJumping);
     }
 
@@ -90,6 +117,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void checkGround(){
         _onGround = Physics2D.OverlapCircle(_groundChecker.position, _groundCheckRadius, _groundLayer);
+    }
+
+    private void setAnimState(playerStates st){
+        if(_currentAnimState == st) 
+        return;
+        _animationController.Play(_animNames[(int)st]);
+        _currentAnimState = st;
     }
 /*
     private void DefinePlayerAction()
