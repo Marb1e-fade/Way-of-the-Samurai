@@ -11,9 +11,9 @@ public class PlayerMovement : MonoBehaviour
     private bool _isJumping = false;
     private bool _isRunning = false;
     private float _horizontalMove = 0f;
-    private float _walkSpeed = .8f;
-    private float _runSpeed = 2.5f;
-    [SerializeField] private bool _onGround;
+    [SerializeField] private float _walkSpeed = .8f;
+    [SerializeField] private float _runSpeed = 2.5f;
+    private bool _onGround;
     [SerializeField] private Transform _groundChecker;
     [SerializeField] private float _groundCheckRadius = .08f;
     [SerializeField] private LayerMask _groundLayer;
@@ -67,9 +67,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         move(_horizontalMove * Time.fixedDeltaTime);
-        _isJumping = false;
-        checkGround();
 
+        Debug.Log(_isJumping);
         if(_onGround){
             if(_horizontalMove==0)
                 setAnimState(playerStates.IDLE);
@@ -78,8 +77,14 @@ public class PlayerMovement : MonoBehaviour
             else
                 setAnimState(playerStates.WALK);
         }
-        else
+        else{
             setAnimState(playerStates.JUMP);
+        }
+
+        _isJumping = false;
+        checkGround();
+
+        
         //Debug.Log(_isJumping);
     }
 

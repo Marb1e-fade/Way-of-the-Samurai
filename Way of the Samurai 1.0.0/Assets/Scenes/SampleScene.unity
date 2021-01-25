@@ -715,7 +715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _jumpForce: 350
   _movementSmoothing: 0
-  _onGround: 0
+  _walkSpeed: 0.45
+  _runSpeed: 2.5
   _groundChecker: {fileID: 1046495158}
   _groundCheckRadius: 0.08
   _groundLayer:
