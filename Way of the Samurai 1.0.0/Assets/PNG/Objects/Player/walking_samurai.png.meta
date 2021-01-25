@@ -26,6 +26,30 @@ TextureImporter:
   - first:
       213: 21300014
     second: walking_samurai 1_7
+  - first:
+      213: -1630601636676570094
+    second: walking_samurai_0
+  - first:
+      213: -4012489789820721408
+    second: walking_samurai_1
+  - first:
+      213: 2088430205421326367
+    second: walking_samurai_2
+  - first:
+      213: 8709699595791627800
+    second: walking_samurai_3
+  - first:
+      213: 7438150901018513604
+    second: walking_samurai_4
+  - first:
+      213: 8894642772957373652
+    second: walking_samurai_5
+  - first:
+      213: -8454775900806620589
+    second: walking_samurai_6
+  - first:
+      213: 4880889014063051743
+    second: walking_samurai_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -79,6 +103,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -90,192 +116,204 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walking_samurai 1_0
+      name: walking_samurai_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9876bdb8038cf514daa32c3ce090e612
-      internalID: 21300000
+      spriteID: 214f8b36370fe59e0800000000000000
+      internalID: -1630601636676570094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_1
+      name: walking_samurai_1
       rect:
         serializedVersion: 2
         x: 75
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cab0a1848205fef46afa04296650f1c6
-      internalID: 21300002
+      spriteID: 007aad49bc5c058c0800000000000000
+      internalID: -4012489789820721408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_2
+      name: walking_samurai_2
       rect:
         serializedVersion: 2
         x: 150
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14702f6d49e999641be8e3e35c2a9883
-      internalID: 21300004
+      spriteID: f109554f4389bfc10800000000000000
+      internalID: 2088430205421326367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_3
+      name: walking_samurai_3
       rect:
         serializedVersion: 2
         x: 225
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 828f3a3542025f645845041a1021efd8
-      internalID: 21300006
+      spriteID: 816f58be2a11fd870800000000000000
+      internalID: 8709699595791627800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_4
+      name: walking_samurai_4
       rect:
         serializedVersion: 2
         x: 300
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4defe0a8707673843a6f576083b2736c
-      internalID: 21300008
+      spriteID: 4c0d5f0e5de993760800000000000000
+      internalID: 7438150901018513604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_5
+      name: walking_samurai_5
       rect:
         serializedVersion: 2
         x: 375
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e46e07b2cf2b049a5e77a83ba4b6e0
-      internalID: 21300010
+      spriteID: 4d4ae16e97e107b70800000000000000
+      internalID: 8894642772957373652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_6
+      name: walking_samurai_6
       rect:
         serializedVersion: 2
         x: 450
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 341189ec6563f464e80fc1f16ebe3da3
-      internalID: 21300012
+      spriteID: 35a53e01d1a9aaa80800000000000000
+      internalID: -8454775900806620589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_samurai 1_7
+      name: walking_samurai_7
       rect:
         serializedVersion: 2
         x: 525
         y: 0
         width: 75
         height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d21dafbd3b5545a43986c7f177a63034
-      internalID: 21300014
+      spriteID: fd3b55fb2b66cb340800000000000000
+      internalID: 4880889014063051743
       vertices: []
       indices: 
       edges: []

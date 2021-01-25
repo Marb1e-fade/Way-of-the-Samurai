@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 3fa7127b17acb2e4d9379257bf8b8ad5
+guid: eefb75ca142b5b84d90bd4875dd87ab7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: Tileset_ground_0
+      213: 8422908178155751519
+    second: idle_R_0
   - first:
-      213: 21300002
-    second: Tileset_ground_1
+      213: 1814157005316226889
+    second: idle_R_1
   - first:
-      213: 21300004
-    second: Tileset_ground_2
+      213: -6332163053563886295
+    second: idle_R_2
   - first:
-      213: 21300006
-    second: Tileset_ground_3
+      213: -217531379291694779
+    second: idle_R_3
   - first:
-      213: 21300008
-    second: Tileset_ground_4
+      213: -5771093002139131574
+    second: idle_R_4
   - first:
-      213: 21300010
-    second: Tileset_ground_5
-  - first:
-      213: 21300012
-    second: Tileset_ground_6
-  - first:
-      213: 21300014
-    second: Tileset_ground_7
-  - first:
-      213: 21300016
-    second: Tileset_ground_8
-  - first:
-      213: 21300018
-    second: Tileset_ground_9
+      213: -3944208382667396073
+    second: idle_R_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -76,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 111
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,7 +79,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,211 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_ground_0
+      name: idle_R_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 414
-        width: 333
-        height: 332
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2b76ab525b94d40aadaaeb4688304e
-      internalID: 21300000
+      spriteID: f58c4be8c5e24e470800000000000000
+      internalID: 8422908178155751519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_ground_1
+      name: idle_R_1
       rect:
         serializedVersion: 2
-        x: 417
-        y: 414
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 75
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 695f59f29ca4f5140b88f01889138cfd
-      internalID: 21300002
+      spriteID: 94ff8ac3f2e2d2910800000000000000
+      internalID: 1814157005316226889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_ground_2
+      name: idle_R_2
       rect:
         serializedVersion: 2
-        x: 638
-        y: 614
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9aec4d54fe6b4c4aab4147bfdc2cfa4
-      internalID: 21300004
+      spriteID: 925c8748043af18a0800000000000000
+      internalID: -6332163053563886295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_ground_3
+      name: idle_R_3
       rect:
         serializedVersion: 2
-        x: 800
-        y: 614
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 225
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97caa704a88fdc54fbac219e81778d8f
-      internalID: 21300006
+      spriteID: 54951d1fc5c2bfcf0800000000000000
+      internalID: -217531379291694779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_ground_4
+      name: idle_R_4
       rect:
         serializedVersion: 2
-        x: 689
-        y: 413
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 300
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5870686fff6cdaa48bec55385e2e3815
-      internalID: 21300008
+      spriteID: a4121c9bd75f8efa0800000000000000
+      internalID: -5771093002139131574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_ground_5
+      name: idle_R_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 47
-        width: 333
-        height: 332
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 375
+        y: 0
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54fc2fbca5f059546856585b8b41aa71
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_ground_6
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 46
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f7ce7bf4676b9c4c9891c2a3aa6f0cd
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_ground_7
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 246
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85f94b1b7e8dc7f458ac710bc5e673e9
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_ground_8
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 246
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60b31bdc2c3af6749835e1769961162f
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_ground_9
-      rect:
-        serializedVersion: 2
-        x: 689
-        y: 45
-        width: 111
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2de766f87ca9bce42affed0f9730c0c3
-      internalID: 21300018
+      spriteID: 71cedfe8f5b5349c0800000000000000
+      internalID: -3944208382667396073
       vertices: []
       indices: 
       edges: []
@@ -345,7 +249,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fbce3c6150083e941badec30a9dec6dd
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
